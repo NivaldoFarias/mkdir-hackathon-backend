@@ -2,8 +2,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/NivaldoFarias/git--store-backend">
-    <img src="https://github.com/NivaldoFarias/git--store-frontend/blob/main/src/assets/git--store-logo.png" alt="Logo" width="140">
+  <a href="https://github.com/NivaldoFarias/mkdir-hackaton-backend">
+    <img src="https://github.com/NivaldoFarias/mkdir-hackaton-frontend/blob/main/src/assets/mkdir-hackaton-logo.png" alt="Logo" width="160">
   </a>
 
 <h3 align="center">mkdir hackaton | Backend</h3>
@@ -11,9 +11,9 @@
   <p align="center">
     Backend Development Hackaton Project 
     <br />
-    <a href="https://github.com/NivaldoFarias/git--store-backend/tree/main/app.js"><strong>Browse code»</strong></a>
+    <a href="https://github.com/NivaldoFarias/mkdir-hackaton-backend/tree/main/app.js"><strong>Browse code»</strong></a>
     -
-    <a href="https://github.com/NivaldoFarias/git--store-frontend#readme"><strong>Front end code»</strong></a>
+    <a href="https://github.com/NivaldoFarias/mkdir-hackaton-frontend#readme"><strong>Front end code»</strong></a>
 </div>
 
 <br />
