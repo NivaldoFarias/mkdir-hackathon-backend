@@ -1,7 +1,7 @@
 {
   "name": "mkdir-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "hackaton project",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Nivaldo Farias",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",
