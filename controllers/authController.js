@@ -8,8 +8,8 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 export async function createUser(req, res, next) {
-  const username = stripHtml(req.body.username);
-  const password = stripHtml(req.body.password);
+  const username = stripHtml(req.body.username).result;
+  const password = stripHtml(req.body.password).result;
 
   const users = db.collection('users');
   try {
@@ -19,10 +19,9 @@ export async function createUser(req, res, next) {
         .status(409)
         .send({ error: `Username ${username} already taken` });
     }
-
     const newUser = users.insertOne({
       username,
-      password: bcrypt.hashSync(password, process.env.BCRYPT_SALT),
+      password: bcrypt.hashSync(password, 10),
     });
 
     res.locals.userId = newUser._id;
@@ -30,12 +29,13 @@ export async function createUser(req, res, next) {
 
     next();
   } catch (err) {
+    console.log(err);
     res.status(500).send(err);
   }
 }
 
 export async function findUser(req, res, next) {
-  const username = stripHtml(req.body.username);
+  const username = stripHtml(req.body.username).result;
 
   const users = db.collection('users');
   try {
