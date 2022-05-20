@@ -8,6 +8,6 @@ const router = express.Router();
 
 router.use(authRouter);
 router.use(challengesRouter);
-router.use('auth', authRouter);
+router.use(authRouter);
 
 export default router;

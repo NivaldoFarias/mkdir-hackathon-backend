@@ -5,7 +5,7 @@ import { validateUser } from '../middlewares/userSchema.js';
 
 const authRouter = Router();
 
-authRouter.post('/sign-up', validateUser, createUser, signIn);
-authRouter.post('/sign-in', validateUser, findUser, signIn);
+authRouter.post('/auth/sign-up', validateUser, createUser, signIn);
+authRouter.post('/auth/sign-in', validateUser, findUser, signIn);
 
 export default authRouter;
