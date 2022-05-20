@@ -14,3 +14,27 @@ export async function getTemplate(_req, res) {
     });
   }
 }
+
+export async function getChallenges(_req, res) {
+  try {
+    const challenges = await db.collection('challenges').find({});
+    res.status(200).send(challenges);
+  } catch (err) {
+    res.status(500).send({
+      message: 'Internal error while getting challenges',
+      detail: err,
+    });
+  }
+}
+
+export async function postChallenge(req, res) {
+  try {
+    await db.collection('challenges').insertOne(req.body);
+    res.status(201).send('Challenge created');
+  } catch (err) {
+    res.status(500).send({
+      message: 'Internal error while getting challenges',
+      detail: err,
+    });
+  }
+}
