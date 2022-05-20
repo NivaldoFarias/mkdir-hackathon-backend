@@ -2,8 +2,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/NivaldoFarias/mkdir-hackaton-backend">
-    <img src="https://github.com/NivaldoFarias/mkdir-hackaton-frontend/blob/main/src/assets/mkdir-%20hackathon.png" alt="Logo" width="160">
+  <a href="https://github.com/NivaldoFarias/mkdir-hackathon-backend">
+    <img src="https://github.com/NivaldoFarias/mkdir-hackathon-frontend/blob/main/src/assets/mkdir-%20hackathon.png" alt="Logo" width="160">
   </a>
 
 <h3 align="center">mkdir hackathon | Backend</h3>
@@ -11,9 +11,9 @@
   <p align="center">
     Backend Development Hackathon Project 
     <br />
-    <a href="https://github.com/NivaldoFarias/mkdir-hackaton-backend/tree/main/app.js"><strong>Browse code»</strong></a>
+    <a href="https://github.com/NivaldoFarias/mkdir-hackathon-backend/tree/main/app.js"><strong>Browse code»</strong></a>
     -
-    <a href="https://github.com/NivaldoFarias/mkdir-hackaton-frontend#readme"><strong>Front end code»</strong></a>
+    <a href="https://github.com/NivaldoFarias/mkdir-hackathon-frontend#readme"><strong>Front end code»</strong></a>
 </div>
 
 <br />
