@@ -1,0 +1,55 @@
+
+  {
+    "name": "Documentos",
+    "type": "folder",
+    "content": [
+      {
+        "name": "arquivo.txt",
+        "type": "file",
+      },
+    ],
+  },
+  {
+    "name": "Imagens",
+    "type": "folder",
+    "content": [
+      {
+        "name": "hackaton.jpg",
+        "type": "file",
+      },
+      {
+        "name": "logo.png",
+        "type": "file",
+      },
+    ],
+  },
+  {
+    "name": "Vídeos",
+    "type": "folder",
+    "content": [
+      {
+        "name": "video.mp4",
+        "type": "file",
+      },
+    ],
+  },
+  {
+    "name": "Músicas",
+    "type": "folder",
+    "content": [
+      {
+        "name": "playlist-t5.mp3",
+        "type": "file",
+      },
+    ],
+  },
+  {
+    "name": "Downloads",
+    "type": "folder",
+    "content": [
+      {
+        "name": "vscode.exe",
+        "type": "file",
+      },
+    ],
+  }
