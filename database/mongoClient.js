@@ -16,7 +16,7 @@ try {
   await mongoClient.connect();
   db = mongoClient.db(process.env.DATABASE);
   console.log(
-    chalk.blue(`${DATABASE} Connected to database ${bold(db.databaseName)}`)
+    chalk.blue(`${DATABASE} Connected to database ${bold(db.databaseName)}`),
   );
 } catch (err) {
   console.log(chalk.red(`${ERROR} ${err}`));
