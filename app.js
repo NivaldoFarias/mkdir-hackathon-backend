@@ -5,6 +5,7 @@ import dotenv from 'dotenv';
 
 import { SERVER } from './blueprint/chalk.js';
 import authRouter from './routes/authRouter.js';
+import router from './routes/index.js';
 
 dotenv.config();
 
