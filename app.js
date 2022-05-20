@@ -3,8 +3,8 @@ import cors from 'cors';
 import chalk from 'chalk';
 import dotenv from 'dotenv';
 
-import router from './routes/index.js';
 import { SERVER } from './blueprint/chalk.js';
+import authRouter from './routes/authRouter.js';
 
 dotenv.config();
 
