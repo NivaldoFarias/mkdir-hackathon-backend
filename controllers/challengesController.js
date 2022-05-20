@@ -17,7 +17,7 @@ export async function getTemplate(_req, res) {
 
 export async function getChallenges(_req, res) {
   try {
-    const challenges = await db.collection('challenges').find({});
+    const challenges = (await db.collection('challenges').find({})) / toArray();
     res.status(200).send(challenges);
   } catch (err) {
     res.status(500).send({
