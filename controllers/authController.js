@@ -30,7 +30,10 @@ export async function createUser(req, res, next) {
     next();
   } catch (err) {
     console.log(err);
-    res.status(500).send(err);
+    res.status(500).send({
+      message: 'Internal error while getting challenges',
+      detail: err,
+    });
   }
 }
 
@@ -51,7 +54,10 @@ export async function findUser(req, res, next) {
 
     next();
   } catch (err) {
-    res.status(500).send(err);
+    res.status(500).send({
+      message: 'Internal error while getting challenges',
+      detail: err,
+    });
   }
 }
 
@@ -67,6 +73,9 @@ export async function signIn(_req, res) {
     );
     res.status(200).send({ token, username });
   } catch (err) {
-    res.status(500).send({ error: err });
+    res.status(500).send({
+      message: 'Internal error while getting challenges',
+      detail: err,
+    });
   }
 }
